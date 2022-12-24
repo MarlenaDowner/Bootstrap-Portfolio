@@ -22,12 +22,12 @@
     }
 }
 
+/*---------------------------------------------------------------------*/
 .navbar {
     width: 200px;
     height: 100vh;
     align-items: flex-start;
-
-
+    margin-bottom: 0px;
 }
 
 .navbar-brand {
@@ -35,7 +35,6 @@
     font-weight: bold;
     padding-bottom: 10px;
 }
-
 
 .profile-pic img {
     width: 150px;
@@ -49,15 +48,19 @@
     
 }
 
-.a {
-    color
-}
-
 i {
     display: inline-block;
     margin-right: 1em;
   }
 
-  .profile-pic {
+.profile-pic {
     border-radius: 50%;
  }
+
+ /*Hero section/jumbotron*/
+
+.jumbotron-fluid {
+    height: 400px;
+    width: 100vw;
+
+}
