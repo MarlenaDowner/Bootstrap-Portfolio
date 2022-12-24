@@ -60,7 +60,10 @@ i {
  /*Hero section/jumbotron*/
 
 .jumbotron-fluid {
-    height: 400px;
+    background-image: url(../images/pexels-miguel-á-padriñán-19670.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
     width: 100vw;
 
 }
