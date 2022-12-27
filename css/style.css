@@ -34,18 +34,21 @@
     font-size: 1.3em;
     font-weight: bold;
     padding-bottom: 10px;
+    align-items: center;
 }
 
+/*add circle around avatar*/
 .profile-pic img {
     width: 150px;
     height: 150px;
     display: block;
-    margin-left: 10px;
+    margin-left: 9px;
+    margin-top: 22px;
 }
 
 .nav-item a {
     font-weight: bold;
-    
+    color: white !important;
 }
 
 i {
@@ -66,4 +69,13 @@ i {
     height: 500px;
     width: 100vw;
 
+}
+
+hr {
+    position: relative;
+    border: none;
+    height: 5px;
+    width: 300px;
+    background: #92CCCE;
+    margin-bottom: 45px;
 }
