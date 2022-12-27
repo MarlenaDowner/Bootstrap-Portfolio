@@ -63,7 +63,8 @@ i {
  /*Hero section/jumbotron*/
 
 .jumbotron-fluid {
-    background-image: url(../images/pexels-miguel-á-padriñán-19670.jpg);
+    background: rgb(146,204,206);
+    background: linear-gradient(90deg, rgba(146,204,206,1) 0%, rgba(9,108,155,1) 100%);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
@@ -71,11 +72,44 @@ i {
 
 }
 
+.container {
+    margin-left: 30%;
+    margin-top: 50px;
+}
+
+.container h1, p {
+    color: white;
+
+}
+
+.container h1 {
+    font-weight: bold;
+}
+
+.container p {
+    font-size: 1.3em;
+
+}
+
 hr {
     position: relative;
     border: none;
     height: 5px;
-    width: 300px;
-    background: #92CCCE;
+    width: 235px;
+    background: #096c9b;
     margin-bottom: 45px;
+    margin-left: 2px;
+}
+
+.big-picture img {
+    position: none;
+    width: 500px;
+    height: 500px;
+    margin-left: 400px;
+    margin-top: -300px;
+    
+} 
+
+i {
+    color:#096c9b;
 }
