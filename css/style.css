@@ -2,7 +2,9 @@
     box-sizing: border-box;
   }
   
+/*Changed*/
 .navbar {
+    background-color: #92CCCE;
     display: inline;
     width: 200px;
     height: 100%;
@@ -25,6 +27,11 @@
     margin-top: 22px;
 }
 
+/*come back to this*/
+.profile-pic {
+    border-radius: 50%;
+ }
+
 .nav-item a {
     font-weight: bold;
     color: white !important;
@@ -35,11 +42,8 @@ i {
     margin-right: 1em;
   }
 
-.profile-pic {
-    border-radius: 50%;
- }
 
- /*Hero section/jumbotron*/
+ /*------------------Hero section/jumbotron--------------------*/
 
 .jumbotron-fluid {
     background: rgb(146,204,206);
@@ -50,13 +54,13 @@ i {
     width: 100vw;
 
 }
- /*Change*/
+ /*Changed*/
 .container {
     display: flex;
     max-width: 800px;
     max-height: 200px;
     margin-left: 25%;
-    margin-top: 70px;
+    margin-top: 85px;
 }
 
 .container h1, p {
@@ -83,20 +87,18 @@ hr {
     margin-left: 2px;
 }
 
- /*Change*/
+ /*Changed*/
 .bigpicture img {
-
     width: 300px;
     height: 300px;
-    
-    
+    margin-top: -50px;   
 } 
 
 i {
     color:#096c9b;
 }
 
- /*Cards*/
+ /*------------------cards--------------------*/
 
  .card-group {
     display: flex;
