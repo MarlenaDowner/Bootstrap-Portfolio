@@ -106,20 +106,32 @@ i {
 }
 
 
- /*------------------cards--------------------*/
+ /*------------------cards section--------------------*/
 
  .cardcontainer{
     margin-top: 15px;
     margin-left: 230px;
  }
 
-.card{
-    margin: 0.5rem;
+.bodytext { /*--my skills body text is all black-*/
+    color: black;
 }
 
+.myskills { /*--my skills h1 heading-*/
+    color: #096c9b;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
 
+h2 {
+    color: #096c9b;
+    font-size: 25px;
+}
 
-
+.bd-placeholder-img {
+    margin-bottom: 1rem;
+}
 
 
 
