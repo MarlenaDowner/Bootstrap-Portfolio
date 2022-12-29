@@ -83,20 +83,28 @@ hr {
     height: 5px;
     width: 235px;
     background: #096c9b;
-    margin-bottom: 45px;
+    margin-bottom: 15px;
     margin-left: 2px;
 }
 
  /*Changed*/
 .bigpicture img {
-    width: 300px;
-    height: 300px;
-    margin-top: -50px;   
+    width: 350px;
+    height: 350px;
+    margin-top: -10px;   
 } 
 
 i {
     color:#096c9b;
 }
+
+.intro {
+    font-size: 0.9em;
+    color: white;
+    margin-bottom: 15px;
+    max-width: 280px;
+}
+
 
  /*------------------cards--------------------*/
 
