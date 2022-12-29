@@ -91,7 +91,7 @@ hr {
 .bigpicture img {
     width: 350px;
     height: 350px;
-    margin-top: -10px;   
+    margin-top: -50px;   
 } 
 
 i {
@@ -108,10 +108,27 @@ i {
 
  /*------------------cards--------------------*/
 
- .card-group {
-    display: flex;
-    margin-left: 200px;
+ .cardcontainer{
+    margin-top: 15px;
+    margin-left: 230px;
  }
+
+.card{
+    margin: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
  /*add media screen for other sizes*/
