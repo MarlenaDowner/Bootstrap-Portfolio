@@ -143,16 +143,13 @@ h2 {
  }
 
 .row { 
-    margin-bottom: 35px;
+    margin-bottom: 45px;
 }
 
 .row img {
     width: px;
     height: px;
 }
-
-
-
 
  /*------------------About me--------------------*/
 
@@ -195,6 +192,34 @@ h2 {
     margin-bottom: 15px;
     margin-left: 2px;
 }
+
+
+ /*------------------Footer--------------------*/
+
+.list-inline i {
+    color:#096c9b;
+    margin-bottom: 10px;
+}
+
+
+.footercontainer {
+    margin-top: -20px;
+    margin-left: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  /*add media screen for other sizes*/
 
