@@ -104,8 +104,7 @@ i {
     margin-bottom: 15px;
     max-width: 280px;
 }
-
-
+        
  /*------------------my skills cards section--------------------*/
 
  .cardcontainer{
@@ -195,6 +194,9 @@ h2 {
     margin-left: 2px;
 }
 
+.aboutme .btn {
+    font-weight: bold;
+}
 
  /*------------------Footer--------------------*/
 
@@ -210,6 +212,7 @@ h2 {
 }
 
 
+ /*------------------Buttons--------------------*/
 
 
 
