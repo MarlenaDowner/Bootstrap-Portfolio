@@ -106,7 +106,7 @@ i {
 }
 
 
- /*------------------cards section--------------------*/
+ /*------------------my skills cards section--------------------*/
 
  .cardcontainer{
     margin-top: 15px;
@@ -129,12 +129,6 @@ h2 {
     font-size: 25px;
 }
 
-.bd-placeholder-img {
-    margin-bottom: 1rem;
-}
-
-
-
  /*------------------work section--------------------*/
 
 
@@ -151,6 +145,11 @@ h2 {
     width: px;
     height: px;
 }
+
+
+
+
+
 
  /*------------------About me--------------------*/
 
