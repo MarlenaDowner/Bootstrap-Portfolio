@@ -166,12 +166,35 @@ h2 {
  .MEcontainer img {
     width: 300px;
     height: 300px;
-    margin-left: 60px;
+    margin-left: 20px;
     margin-top: 50px;
  }
 
 
+ .aboutme {
+    font-size: 1em;
+    color: white;
+    max-width: 500px;
+    margin-left: 10px;
+}
 
+.aboutme h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.aboutme hr {
+    position: relative;
+    border: none;
+    height: 5px;
+    width: 200px;
+    background: #92CCCE;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    margin-left: 2px;
+}
 
  /*add media screen for other sizes*/
 
