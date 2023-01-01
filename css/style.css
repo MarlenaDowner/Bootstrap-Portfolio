@@ -2,6 +2,10 @@
     box-sizing: border-box;
   }
   
+
+
+ /*------------------Nav Bar--------------------*/  
+
 /*Changed*/
 .navbar {
     background-color: #92CCCE;
@@ -25,6 +29,10 @@
     display: block;
     margin-left: 9px;
     margin-top: 22px;
+    /*circle around avatar*/
+    border-radius: 50%;
+    overflow: hidden;
+    background-color:#096c9b;
 }
 
 /*come back to this*/
@@ -40,6 +48,14 @@
 i {
     display: inline-block;
     margin-right: 1em;
+  }
+
+  .nav-item a {
+    transition: all 0.3s linear !important;
+}
+
+  .nav-item a:hover {
+    color: #096c9b !important;
   }
 
 
