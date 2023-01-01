@@ -1,156 +1,65 @@
-# Unit 3 Challenge: Code Bootstrap Portfolio
+# <Bootstrap-Portolio>
 
-## Overview
+## Description
 
-In this assignment, you'll be building your portfolio layout using the Bootstrap CSS Framework.
+Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
-## Before You Begin
+- What was your motivation?
+- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
+- What problem does it solve?
+- What did you learn?
 
-* You've learned a ton of material: HTML, CSS, GitHub, GitHub Pages, and Bootstrap. If you feel like you're falling behind, there's no need to panic. You'll have plenty of time to digest and master this material.
+## Table of Contents (Optional)
 
-* We're diving into JavaScript next unit, and HTML/CSS will start receiving less focus. Still, you'll find that a basic knowledge of HTML/CSS will help you understand JavaScript, especially when we use it to manipulate web pages.
+If your README is long, add a table of contents to make it easy for users to find what they need.
 
-## Commits
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
 
-* Having an active and healthy commit history on GitHub is important for your future job search. It is also extremely important for making sure your work is saved in your repository. If something breaks, committing often ensures you are able to go back to a working version of your code.
+## Installation
 
-* Committing often is a signal to employers that you are actively working on your code and learning.
+What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
-  * We use the mantra “commit early and often.”  This means that when you write code that works, add it and commit it!
+## Usage
 
-  * Numerous commits allow you to see how your app is progressing and give you a point to revert to if anything goes wrong.
+Provide instructions and examples for use. Include screenshots as needed.
 
-* Be clear and descriptive in your commit messaging.
+To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
 
-  * When writing a commit message, avoid vague messages like "fixed." Be descriptive so that you and anyone else looking at your repository knows what happened with each commit.
+![alt text](assets/images/screenshot.png)
 
-* We would like you to have well over 200 commits by graduation, so commit early and often!
+## Credits
 
-## Instructions
+List your collaborators, if any, with links to their GitHub profiles.
 
-1. Create a new GitHub repositories and name it `Bootstrap-Portfolio`.
+If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
 
-2. Clone this repository to your computer.
+If you followed tutorials, include links to those here as well.
 
-3. Inside your `Bootstrap-Portfolio` repo, create the folder structure for the webpage.
-   
-   - Create a folder structure.
+## License
 
-     - Create a `index.html`.
-
-     - Create a `css` folder.
-
-       - Inside create a `style.css` file.
-
-   - Create an `images` folder.
-
-       - Place all your images in this folder.
-
-4. Using Bootstrap, recreate your portfolio site with the following items:
-
-   The website should include the following bootstrap components:
-
-    - A Navigation bar
-    
-    - A navigation menu at the top. Feel free to use bootstrap's navbar or create your own.
-
-      - Include links that are applicable to your portfolio.
-  
-        - Links should navigate to the appropriate sections 
-
-    - A hero section
-
-        - A jumbotron featuring your picture, your name, and any other information you'd like to include.
-
-    - A work section
-
-      - A section displaying your work in grid. 
-
-        - If you need to use placeholder image use: https://placehold.co/ 
-
-      - Use bootstrap cards for each project.
-
-        - The description should give a brief overview of the work.
-
-      - Each project will eventually link to your class project work!
-
-    - A skills section
-
-      - List out the skills you expect to learn from the bootcamp.
-
-    - An about / contact section.
-
-      - An "About Me" section in the same row.
-    
-    - A footer section.
-
-      - All hyperlinks should have a hover effect.
-
-      - All buttons should display a box shadow upon hover.
-
-5. Your Bootstrap solution should minimize use of media queries.
-
-6. Deploy your new Bootstrap-powered portfolio to GitHub Pages.
-
-## Helpful Resources
-
-- [Bootstrap Documentation](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
-
-- [Responsive Web Design - How to Create Media Queries](https://www.youtube.com/watch?v=5xzaGSYd7jM)
-
-- [Media Queries 101 by CSS Tricks](https://css-tricks.com/css-media-queries/)
-
-- [Media Query Documentation](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
-
-- [Github Pages Guide](https://pages.github.com/)
-
-  - Choose "Project Site" and "Start from Scratch" to get correct instructions.
-
-
-## Grading Requirements
-
-This homework is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
-
-### Application Quality: 15%
-
-* Application resembles the functionality of their previous portfolio.
-
-### Repository Quality: 12%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme with description, screenshot, link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
+The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
 
 ---
 
-## Copyright
+🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
 
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+## Badges
+
+![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+
+Badges aren't necessary, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
+
+## Features
+
+If your project has a lot of features, list them here.
+
+## How to Contribute
+
+If you created an application or package and would like other developers to contribute to it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
+
+## Tests
+
+Go the extra mile and write tests for your application. Then provide examples on how to run them here.
