@@ -156,6 +156,7 @@ h2 {
  .MEcontainer {
     margin-top: 35px;
     margin-left: 200px;
+    margin-bottom: -40px;
     background: rgb(9,108,155);
     background: linear-gradient(90deg, rgba(9,108,155,1) 0%, rgba(9,108,155,1) 100%);
  }
@@ -208,21 +209,16 @@ h2 {
 .footercontainer {
     margin-top: -20px;
     margin-left: 200px;
+    margin-bottom: -20px;
 }
 
+.list-inline i {
+    transition: all 0.3s linear;
+}
 
- /*------------------Buttons--------------------*/
-
-
-
-
-
-
-
-
-
-
-
+.list-inline i:hover {
+    color: red;
+}
 
 
  /*add media screen for other sizes*/
