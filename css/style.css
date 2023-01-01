@@ -235,6 +235,21 @@ h2 {
     color: red;
 }
 
+ /*------------------Section lines--------------------*/
+
+.sectionlines hr {
+    position: relative;
+    height: 0.08px;
+    width: 100%;
+    background: rgb(194, 194, 194);
+    margin-bottom: 15px;
+    margin-left: 200px;
+}
+
+
+
+
+
 
  /*add media screen for other sizes*/
 
