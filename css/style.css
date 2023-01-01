@@ -251,7 +251,7 @@ h2 {
 
 
 
- /*add media screen for other sizes*/
+ /*-----------media screen-----------------*/
 
 @media screen and (min-width:1000px) {
     .navbar, .container-fluid, .navbar-expand-lg .navbar-collapse, .navbar-expand-lg .navbar-nav {
@@ -262,34 +262,24 @@ h2 {
 
 }
 
-/*
-@media screen and (min-width:768px) {
-    .navbar, .container-fluid, .navbar-expand-lg .navbar-collapse, .navbar-expand-lg .navbar-nav {
-        flex-direction: column;
-        align-items: flex-start;
-        text-align: left;
-    }
-
-   
-
-    .navbar, .navbar-expand-lg, .navbar-dark,.fixed-top
-    {
-        padding-top: 0px;
-    }
+@media screen and (min-width:768px){
+    .bigpicture img {
+        position: absolute;
+        left: 500px;
+        width: 300px;
+        top: 180px;
+        height: 300px;
+        margin-right: px;
+        
+        
 
     }
- /*this is just indication to where 768 starts from*/
+
+    div {
+        display: block;
+        margin-left: 5px;
 
 
+    }
 
-
-
-
-
-
-@media screen and (min-width:320px) {
-    
- 
 }
-
-/*---------------------------------------------------------------------*/
