@@ -1,12 +1,9 @@
 * {
     box-sizing: border-box;
   }
-  
-
 
  /*------------------Nav Bar--------------------*/  
 
-/*Changed*/
 .navbar {
     background-color: #92CCCE;
     display: inline;
@@ -22,11 +19,9 @@
     align-items: center;
 }
 
-/*add circle around avatar*/
 .profile-pic img {
     width: 150px;
     height: 150px;
-    display: block;
     margin-left: 9px;
     margin-top: 22px;
     /*circle around avatar*/
@@ -34,11 +29,6 @@
     overflow: hidden;
     background-color:#096c9b;
 }
-
-/*come back to this*/
-.profile-pic {
-    border-radius: 50%;
- }
 
 .nav-item a {
     font-weight: bold;
@@ -61,7 +51,7 @@ i {
 
  /*------------------Hero section/jumbotron--------------------*/
 
-.jumbotron-fluid {
+ .jumbotron-fluid {
     background: rgb(146,204,206);
     background: linear-gradient(90deg, rgba(146,204,206,1) 0%, rgba(9,108,155,1) 100%);
     background-repeat: no-repeat;
@@ -70,7 +60,7 @@ i {
     width: 100%;
 
 }
- /*Changed*/
+
 .container {
     display: flex;
     max-width: 800px;
@@ -103,7 +93,6 @@ hr {
     margin-left: 2px;
 }
 
- /*Changed*/
 .bigpicture img {
     width: 350px;
     height: 350px;
@@ -128,11 +117,11 @@ i {
     margin-left: 230px;
  }
 
-.bodytext { /*--my skills body text is all black-*/
+.bodytext { 
     color: black;
 }
 
-.myskills { /*--my skills h1 heading-*/
+.myskills { 
     color: #096c9b;
     font-size: 30px;
     font-weight: bold;
@@ -182,7 +171,6 @@ h2 {
     margin-left: 20px;
     margin-top: 50px;
  }
-
 
  .aboutme {
     font-size: 1em;
@@ -247,39 +235,46 @@ h2 {
 }
 
 
-
-
-
-
- /*-----------media screen-----------------*/
-
-@media screen and (min-width:1000px) {
+ /*------------------Media Screen--------------------*/
+ @media screen and (max-width:1640px) {
     .navbar, .container-fluid, .navbar-expand-lg .navbar-collapse, .navbar-expand-lg .navbar-nav {
         flex-direction: column;
         align-items: flex-start;
         text-align: left;
     }
 
+    .bigpicture img {
+        position: absolute;
+    
+    }
+
 }
 
-@media screen and (min-width:768px){
+@media screen and (max-width:992px) {
+    .navbar, .container-fluid, .navbar-expand-lg .navbar-collapse, .navbar-expand-lg .navbar-nav {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .bigpicture img {
+        position: absolute;
+    
+    }
+
+}
+ /*------------------isnt repsonding--------------------*/
+@media screen and (max-width:768px) {
+    .bigpicture img {
+        position: absolute;
+    } 
+    
     .bigpicture img {
         position: absolute;
         left: 500px;
         width: 300px;
         top: 180px;
         height: 300px;
-        margin-right: px;
-        
-        
-
     }
-
-    div {
-        display: block;
-        margin-left: 5px;
-
-
-    }
-
+ 
 }
