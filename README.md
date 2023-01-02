@@ -8,7 +8,7 @@ My motivation for this project was to create a portfolio using Bootstrap, HTML, 
 
 ## Project Screenshot
 
-
+![Screenshot](https://user-images.githubusercontent.com/119687938/210188518-74caf483-d61d-41a3-b6d8-ae61d2d446e7.JPG)
 
 ## License
 
